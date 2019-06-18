@@ -2,7 +2,7 @@
   <link rel="icon" href="BrandtsBrewVector2-1.png" type="image/x-icon">
 </head>
 
-![Brandt's Brews](/BrandtsBrewVector-1.png)
+[![Brandt's Brews](/BrandtsBrewVector-1.png)](https://www.instagram.com/hikari_smoked_bacon/?hl=en)
 
 # Contact
 ## Michael Kopsho
