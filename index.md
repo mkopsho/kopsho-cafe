@@ -1,5 +1,8 @@
-# Who I am
-![Brandt's Brews](/BrandtsBrewVector.pdf)
+<head>
+  <link rel="icon" href="BrandtsBrewVector-2.png" type="image/x-icon">
+</head>
+
+![Brandt's Brews](/BrandtsBrewVector-1.png)
 
 # Contact
 ## Michael Kopsho
