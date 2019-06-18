@@ -1,3 +1,6 @@
+# Who I am
+![Brandt's Brews](/BrandtsBrewVector.pdf)
+
 # Contact
 ## Michael Kopsho
 ### (770) 289-2061
