@@ -1,5 +1,5 @@
 <head>
-  <link rel="icon" href="BrandtsBrewVector-2.png" type="image/x-icon">
+  <link rel="icon" href="BrandtsBrewVector2-1.png" type="image/x-icon">
 </head>
 
 ![Brandt's Brews](/BrandtsBrewVector-1.png)
