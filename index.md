@@ -1,20 +1,3 @@
-{% include head.html %}
-<body>
-<div class="wrapper">
-  <header>
-  <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-
-{% include contact.html %}
-      
-  </header>
-  <section>
-# Contact Info
-<i class="fa fa-phone-square"></i> (770) 289-2061
-<br>
-<i class="fa fa-envelope-square"></i> michael.kopsho@gmail.com
-<br>
-<i class="fa fa-map-marker"></i> Atlanta, GA
-<br>
 # Resume
 ## Skills
 People management, project management, process management, systems thinking, group facilitation, workshop facilitation, didactic and experiential education, team building, community building, back briefing, conflict resolution, change management, workflow design and implementation, organizational design and implementation, context-aware and data-influenced solutions to problems.
@@ -74,4 +57,5 @@ Kanban, Lean, XP, Scrum, Six Sigma, Liberating Structures, Featureban, Jira, Con
 **Kennesaw State University - B.A. World History**<br>
 **2007 - 2011**
 </section>
+</div>
 </body>
