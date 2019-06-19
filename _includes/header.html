@@ -1,3 +1,10 @@
+{% if site.location %}
+  <li>
+    <p>{{ site.twitter_username }}</p>
+      <i class="fa fa-map-marker"></i> Twitter
+    </a>
+  </li>
+{% endif %}
 {% if site.twitter_username %}
   <li>
     <a href="https://twitter.com/{{ site.twitter_username }}">

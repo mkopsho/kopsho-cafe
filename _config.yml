@@ -1,5 +1,9 @@
+# Config
+remote_theme: mmistakes/minimal-mistakes
 title: Copslop
 description: Kopsho's site. I post about things that I like.
+
+# Social stuff
 twitter_username: Michael_Tsunam1
 github_username: mkopsho
 linkedin_username: michael.kopsho@gmail.com
