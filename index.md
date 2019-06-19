@@ -1,5 +1,4 @@
 {% include head.html %}
-
 <body>
 <div class="wrapper">
   <header>
@@ -9,11 +8,6 @@
       
   </header>
   <section>
-
-{{ content }}
-
-  </section>
-
 # Contact Info
 <i class="fa fa-phone-square"></i> (770) 289-2061
 <br>
@@ -79,3 +73,5 @@ Kanban, Lean, XP, Scrum, Six Sigma, Liberating Structures, Featureban, Jira, Con
 ## Education
 **Kennesaw State University - B.A. World History**<br>
 **2007 - 2011**
+</section>
+</body>
