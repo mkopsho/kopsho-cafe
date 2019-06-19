@@ -8,7 +8,7 @@ Kanban, Lean, XP, Scrum, Six Sigma, Liberating Structures, Featureban, Jira, Con
 ## Experience
 
 ### MailChimp, Atlanta 
-**Project Manager, Engineering**\
+**Project Manager, Engineering**<br>
 **March 2016 - Present**
 * Tracked all work across the entire Engineering department. This included in-flight work, future options, and completed work.
 * Managed several major technical projects, including the design and implementation of our internal S3-like infrastructure leveraging Ceph, development of a fault-tolerant Django application that managed, provisioned, and ordered all of our physical and virtual infrastructure, and implementing MySQL database pools within the Mailchimp monolith application for more efficient scale and fault tolerance.
