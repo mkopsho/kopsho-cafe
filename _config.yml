@@ -1,5 +1,5 @@
 # Config
-# remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.16.4"
 title: Copslop
 description: Kopsho's site. I post about things that I like.
 
@@ -8,3 +8,7 @@ location: Atlanta, GA
 twitter_username: Michael_Tsunam1
 github_username: mkopsho
 linkedin_username: michael.kopsho@gmail.com
+
+# Customization
+plugins:
+  - jekyll-include-cache
