@@ -11,4 +11,4 @@
 * [twitter](https://twitter.com/Michael_Tsunam1)
 * [facebook](https://www.facebook.com/Rembrandt89)
 
-[![Brandt's Brews](/images/BrandtsBrewVector-1.png)](https://www.instagram.com/hikari_smoked_bacon/?hl=en)
+[![Brandt's Brews](/images/BrandtsBrewVector.png)](https://www.instagram.com/hikari_smoked_bacon/?hl=en)
