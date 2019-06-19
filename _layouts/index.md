@@ -1,4 +1,19 @@
 {% include head.html %}
+
+<body>
+<div class="wrapper">
+  <header>
+  <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+
+{% include contact.html %}
+      
+  </header>
+  <section>
+
+{{ content }}
+
+  </section>
+
 # Contact Info
 <i class="fa fa-phone-square"></i> (770) 289-2061
 <br>
@@ -6,7 +21,6 @@
 <br>
 <i class="fa fa-map-marker"></i> Atlanta, GA
 <br>
-{% include contact.html %}
 # Resume
 ## Skills
 People management, project management, process management, systems thinking, group facilitation, workshop facilitation, didactic and experiential education, team building, community building, back briefing, conflict resolution, change management, workflow design and implementation, organizational design and implementation, context-aware and data-influenced solutions to problems.
