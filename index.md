@@ -56,6 +56,3 @@ Kanban, Lean, XP, Scrum, Six Sigma, Liberating Structures, Featureban, Jira, Con
 ## Education
 **Kennesaw State University - B.A. World History**<br>
 **2007 - 2011**
-</section>
-</div>
-</body>
