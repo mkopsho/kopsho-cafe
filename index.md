@@ -1,6 +1,7 @@
 <head>
   <link rel="icon" href="BrandtsBrewVector2-1.png" type="image/png">
 </head>
+{% include head.html %}
 {% include header.html %}
 # Contact
 ## Michael Kopsho
