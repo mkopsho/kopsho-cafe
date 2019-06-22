@@ -12,11 +12,11 @@ Kanban, Lean, XP, Scrum, Six Sigma, Liberating Structures, Featureban, Jira, Con
 **March 2016 - Present**
 * Tracked _all_ work across the entire Engineering department. This included in-flight work, future options, and completed work.
 * Managed several major technical projects, including the design and implementation of our internal S3-like infrastructure leveraging Ceph, development of a fault-tolerant Django application that managed, provisioned, and ordered all of our physical and virtual infrastructure, and implementing MySQL database pools within the Mailchimp monolith application for more efficient scale and fault tolerance.
-* Used many different project management tools and techniques depending on the project type, including kanban-inspired work visualization, WIP limiting, and continuous improvement, pair programming, gantt-like visualizations of work sequencing and timelines, and scrumlike ceremonies and sprint planning.
+* Actively use many different project management tools and techniques depending on the project type, including kanban-inspired work visualization, WIP limiting, and continuous improvement, pair programming, gantt-like visualizations of work sequencing and timelines, and scrumlike ceremonies and sprint planning.
 * Created a lightweight project management process which handles work ideation, ingress, visualization, project prioritization and sequencing, availability planning, execution, and retrospection.
 * Fostered a community of practice centered around agile and lean concepts and activities, continuous process improvement, team facilitation, and workshopping.
-* Incorporated workshops to help teams experiment with their workflows and improve their processes. Topics included work visualization, productivity tools, just-in-time flow, getting from obstacles to outcomes, and prioritization techniques.
-* Embedded in and coached multiple technical teams through continual agile improvements depending on their needs and desires. Teams included our Site Reliability team, our Services team, and our Networking teams.
+* Incorporate workshops to help teams experiment with their workflows and improve their processes. Topics included work visualization, productivity tools, just-in-time flow, getting from obstacles to outcomes, and prioritization techniques.
+* Embed in and coach multiple technical teams through continual agile improvements depending on their needs and desires. Teams include our Site Reliability team, our Services team, and our Networking teams.
 
 **Manager, Systems Engineering**<br>
 **February 2015 - February 2016**
@@ -24,11 +24,11 @@ Kanban, Lean, XP, Scrum, Six Sigma, Liberating Structures, Featureban, Jira, Con
 * Created an internal support and project pipeline which managed internal customer requests for work, lowered response times, and visualized team capacity. The team still has a similar process in place to this day, which allows them to take on more requests per week, have stronger feedback loops with internal customers, and reduce cycle times and work blockages.
 * Worked with the team to build an emergency response framework which handled alerting, incident response and command, and post-mortems. Lessons from this are helping us to respond more efficiently and effectively to outages that affect our users, and we still have this process in place today.
 * Designed a simple on-call system that staffed team members to specific functions based on work types that came to the team and our capacity to take on that work.
-* Managed a project to build out of our Seattle datacenter, which houses our disaster recovery databases. This project was the first officially managed project at Mailchimp, and it showed the value add that an explicit project management job function provides.
+* Managed a project to build out our Seattle datacenter which houses our disaster recovery databases. This project was the first officially managed project at Mailchimp, and it showed the value add that an explicit project management job function provides.
 
 **Systems Engineer**<br>
 **May 2013 - February 2015**
-* Worked within a small team to directly build out and scale two colocated data centers in Atlanta and Suwanee, GA to handle Mailchimp’s rapidly growing user base.
+* Worked in a small team to directly build out and scale two colocated data centers in Atlanta and Suwanee, GA to handle Mailchimp’s rapidly growing user base.
 * Designed baked-in redundancy across each layer of our infrastructure: firewalls, routers, switches, ethernet ports, load balancers, web servers, databases, power supplies, and power circuits were all redundant in some way.
 * Led the effort to transfer all of our infrastructure from SoftLayer to our colocated facilities, which led to reduced mean time to failure for our systems and increased uptime for our users.
 * Built and configured software and network infrastructure to scale our physical infrastructure, which handled growth from five to nine million users during my time in this role.
