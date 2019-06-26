@@ -2,11 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
-@font-face {
-    src: url("../mkopsho.github.io/Chivo-Light.otf") format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
 @body {
-    background-color:#18af83;
+  font: 100% Helvetica, sans-serif;
+  background-color: #18af83;
 }
