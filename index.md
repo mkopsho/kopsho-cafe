@@ -1,14 +1,14 @@
 # Resume
 ## Skills
 People management, project management, process management, systems thinking, group facilitation, workshop facilitation, didactic and experiential education, team building, community building, back briefing, conflict resolution, change management, workflow design and implementation, organizational design and implementation, context-aware and data-influenced solutions to problems.
-
+ 
 ## Proficiencies
 Kanban, Lean, XP, Scrum, Six Sigma, Liberating Structures, Featureban, Jira, Confluence, User Story Mapping, Impact Mapping, CD3, Kano, Linux (CentOS), Bash, Mercurial, GitHub Enterprise, Puppet, MySQL, Apache, nginx, Python, Zabbix, Grafana, Elasticsearch, SolarWinds, PagerDuty, Akamai, and running enterprise hardware at large scale (mostly HP Enterprise and Cisco Systems).
-
+ 
 ## Experience
 
 ### MailChimp, Atlanta 
-**Project Manager, Engineering**<br>
+**Project Manager, Engineering** 
 **March 2016 - Present**
 * Tracked _all_ work across the entire Engineering department. This included in-flight work, future options, and completed work.
 * Managed several major technical projects, including the design and implementation of our internal S3-like infrastructure leveraging Ceph, development of a fault-tolerant Django application that managed, provisioned, and ordered all of our physical and virtual infrastructure, and implementing MySQL database pools within the Mailchimp monolith application for more efficient scale and fault tolerance.
