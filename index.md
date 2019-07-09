@@ -19,10 +19,10 @@ I've also run enterprise hardware at large scale, which granted me direct experi
 **Project Manager, Engineering**<br>
 **March 2016 - Present**
 * Track _all_ work across the entire Engineering department. This includes in-flight work, future options, and completed work.
-* Manage major technical projects, including: 
-	The design and implementation of our internal S3-like infrastructure leveraging Ceph.
-	Development of a fault-tolerant Django application that managed, provisioned, and ordered all of our physical and virtual infrastructure.
-	Implementation of MySQL database pools within the Mailchimp monolith application for more efficient scale and fault tolerance.
+* Manage major technical projects, including:
+    The design and implementation of our internal S3-like infrastructure leveraging Ceph. 
+    Development of a fault-tolerant Django application that managed, provisioned, and ordered all of our physical and virtual infrastructure. 
+    Implementation of MySQL database pools within the Mailchimp monolith application for more efficient scale and fault tolerance.
 * Select many different project management tools and techniques depending on the project type, including kanban-inspired work visualization, WIP limiting, and continuous improvement, pair programming, gantt-like visualizations of work sequencing and timelines, and scrumlike ceremonies and sprint planning.
 * Create a lightweight project management processes to handle work ideation, ingress, visualization, project prioritization and sequencing, availability planning, execution, and retrospection.
 * Foster a community of practice centered around agile and lean concepts and activities, continuous process improvement, team facilitation, and workshopping.
