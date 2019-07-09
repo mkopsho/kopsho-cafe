@@ -1,4 +1,11 @@
 # Resume
+## Intent
+<p>In my 9ish years of experience working in the technology industry, I've worked in varied levels of the organization: individual contributor, people manager, and work manager. Currently, I'm a project manager by name and a coach and educator in practice. I help teams make sense of their work through work visualization, experimentation and validation, and sensemaking.
+
+My experience in these different roles at a rapidly-growing software company has shown me that we need sensible thinking at each level of an organization. We need leaders who are focused on strategy, are well-informed of the rapidly-changing ecosystem around them, and can sense and respond to those changes appropriately. We need to enable teams to make well-informed, business-aligned decisions, deliver high-quality work at a sustainable pace, and run low-risk experiments with short feedback loops.
+
+All of this is easier said than done; none of it is trivial. I'm professionally focused on and dedicated to making these goals a reality. I'm currently looking for opportunities in this space as a management or agile coach.</p>
+
 ## Skills
 People management, project management, process management, systems thinking, group facilitation, workshop facilitation, didactic and experiential education, team building, community building, back briefing, conflict resolution, change management, workflow design and implementation, organizational design and implementation, context-aware and data-influenced solutions to problems.
 
