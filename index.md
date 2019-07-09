@@ -4,13 +4,14 @@ In my 9ish years of experience working in the technology industry, I've worked i
 
 My experience in these different roles at a rapidly-growing software company has shown me that we need sensible thinking at each level of an organization. We need leaders who are focused on strategy, are well-informed of the rapidly-changing ecosystem around them, and can sense and respond to those changes appropriately. We need to enable teams to make well-informed, business-aligned decisions, deliver high-quality work at a sustainable pace, and run low-risk experiments with short feedback loops.
 
-All of this is easier said than done; none of it is trivial. I'm professionally focused on and dedicated to making these goals a reality. I'm currently looking for opportunities in this space as a management or agile coach.
+All of this is easier said than done; none of it is trivial. I'm professionally focused on and dedicated to making these goals a reality. I'm currently looking for opportunities in this space as a management or agile coach or educator.
 
-## Skills
-People management, project management, process management, systems thinking, group facilitation, workshop facilitation, didactic and experiential education, team building, community building, back briefing, conflict resolution, change management, workflow design and implementation, organizational design and implementation, context-aware and data-influenced solutions to problems.
+## Personal Word Cloud
+Here is a list things that I have direct experience with:
 
-## Proficiencies
-Kanban, Lean, XP, Scrum, Six Sigma, Liberating Structures, Featureban, Jira, Confluence, User Story Mapping, Impact Mapping, CD3, Kano, Linux (CentOS), Bash, Mercurial, GitHub Enterprise, Puppet, MySQL, Apache, nginx, Python, Zabbix, Grafana, Elasticsearch, SolarWinds, PagerDuty, Akamai, and running enterprise hardware at large scale (mostly HP Enterprise and Cisco Systems).
+People management, project management, process management, systems thinking, workshop facilitation, didactic and experiential education, conflict resolution, change management, workflow and organizational design and implementation, Kanban, Lean, Scrum, Six Sigma, pair programming, Jira, Confluence, Impact Mapping, User Story Mapping, CD3.
+
+I've also run enterprise hardware at large scale, which granted me direct experience with Linux (CentOS) and bash, Git and Gitflow, Puppet, MySQL, apache, nginx, PHP, Python, Ruby, Zabbix, Elasticsearch and Kibana, Pagerduty.
 
 ## Experience
 
