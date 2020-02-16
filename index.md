@@ -1,4 +1,4 @@
-# Resume
+# Hi! I'm Michael. Here's a bunch of stuff I've done.
 ## Intent
 In my 9ish years of experience working in the technology industry, I've worked in varied levels of the organization: individual contributor, people manager, and work manager. Currently, I'm a project manager by name and a coach and educator in practice. I help teams make sense of their work through work visualization, experimentation and validation, and sensemaking.
 
