@@ -1,22 +1,22 @@
-# Hi! I'm Michael. 
+# Hi! I'm Michael Kopsho. 
 # Here's a bunch of stuff that I've done.
-## Intent
+## My Professional Intent
 In my 9ish years of experience working in the technology industry, I've worked in varied levels of the organization: individual contributor, people manager, and work manager. Currently, I'm a project manager by name and a coach and educator in practice. I help teams make sense of their work through work visualization, experimentation and validation, and sensemaking.
 
 My experience in these different roles at a rapidly-growing software company has shown me that we need sensible thinking at each level of an organization. We need leaders who are focused on strategy, are well-informed of the rapidly-changing ecosystem around them, and can sense and respond to those changes appropriately. We need to enable teams to make well-informed, business-aligned decisions, deliver high-quality work at a sustainable pace, and run low-risk experiments with short feedback loops.
 
 All of this is easier said than done; none of it is trivial. I'm professionally focused on and dedicated to making these goals a reality. I'm currently looking for opportunities in this space as a management or agile coach or educator.
 
-## Personal Word Cloud
+## My Personal Word Cloud
 Here is a list things that I have direct experience with:
 
 People management, project management, process management, systems thinking, workshop facilitation, didactic and experiential education, conflict resolution, change management, workflow and organizational design and implementation, Kanban, Lean, Scrum, Six Sigma, pair programming, Jira, Confluence, Impact Mapping, User Story Mapping, CD3.
 
 I've also run enterprise hardware at large scale, which granted me direct experience with Linux (CentOS) and bash, Git and Gitflow, Puppet, MySQL, apache, nginx, PHP, Python, Ruby, Zabbix, Elasticsearch and Kibana, Pagerduty.
 
-## Experience
+## My Experience
 
-### MailChimp, Atlanta 
+### [Mailchimp](https://mailchimp.com/), Atlanta 
 **Project Manager, Engineering**<br>
 **March 2016 - Present**
 * Track _all_ work across the entire Engineering department. This includes in-flight work, future options, and completed work.
@@ -24,11 +24,11 @@ I've also run enterprise hardware at large scale, which granted me direct experi
     The design and implementation of our internal S3-like infrastructure leveraging Ceph. 
     Development of a fault-tolerant Django application that managed, provisioned, and ordered all of our physical and virtual infrastructure. 
     Implementation of MySQL database pools within the Mailchimp monolith application for more efficient scale and fault tolerance.
-* Select many different project management tools and techniques depending on the project type, including kanban-inspired work visualization, WIP limiting, and continuous improvement, pair programming, gantt-like visualizations of work sequencing and timelines, and scrumlike ceremonies and sprint planning.
+* Select many different project management tools and techniques depending on the project type, including kanban-inspired work visualization, WIP limiting, pair programming, gantt-like visualizations of work sequencing and timelines, and scrumlike ceremonies and sprint planning.
 * Create a lightweight project management processes to handle work ideation, ingress, visualization, project prioritization and sequencing, availability planning, execution, and retrospection.
 * Foster a community of practice centered around agile and lean concepts and activities, continuous process improvement, team facilitation, and workshopping.
 * Incorporate workshops to help teams experiment with their workflows and improve their processes. Topics included work visualization, productivity tools, just-in-time flow, getting from obstacles to outcomes, and prioritization techniques.
-* Embed in and coach multiple technical teams through continual agile improvements depending on their needs and desires. Teams include our Site Reliability team, our Systems Services team, and our Networking teams.
+* Embed in and coach multiple technical teams through continual agile improvements depending on their needs and desires. Teams include our Site Reliability team, our Systems Services team, and our Networking team.
 
 **Manager, Systems Engineering**<br>
 **February 2015 - February 2016**
@@ -48,23 +48,32 @@ I've also run enterprise hardware at large scale, which granted me direct experi
 * Part of the team that built the Mailchimp Pro product offering, which formed the foundation of our “data pipeline” for use by any Mailchimp application.
 * Piloted Jira and Confluence to keep track of all of our work on the team, which was adopted by the whole department and eventually the entire company.
 
-### Akamai Technologies, Atlanta
+### [Akamai Technologies](https://akamai.com/), Atlanta
 **Network Infrastructure Technician**<br>
 **August 2011 - May 2013**
 * Coordinated with a team of Network Infrastructure Technicians and Engineers to deploy and maintain thousands of servers that power Akamai’s content delivery and storage networks.
 * Traveled around to and worked in 5 different colocated datacenters scattered across metropolitan Atlanta.
 
-### Comnexia, Roswell GA
+### [Comnexia](https://www.comnexia.com/), Roswell GA
 **IT Support**<br>
 **April 2011 - July 2011**
 * Level 1 and 2 IT support for Windows systems.
 
-### EZ Trade Live, Marietta GA
+### [EZ Trade Live](http://www.eztradelive.com/), Marietta GA
 **Server Technician**<br>
 **August 2009 - April 2011**
 * Built, configured, and shipped refurbished servers.
 <br>
 
 ## Education
+**[Flatiron School](https://flatironschool.com)
+** 2020 - present
+* Joining the Software Engineering Program starting in May 2020. Expected graduation in late August 2020.
+* Doing full stack web dev things!
+
+**[Treehouse](https://teamtreehouse.com/mkopsho)
+**2019 - present
+* Learning about a whole mess of things with a focus on Python and Javascript.
+
 **Kennesaw State University - B.A. World History**<br>
 **2007 - 2011**
