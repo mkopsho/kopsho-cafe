@@ -66,14 +66,15 @@ I've also run enterprise hardware at large scale, which granted me direct experi
 <br>
 
 ## Education
-**[Flatiron School](https://flatironschool.com)
-** 2020 - present
-* Joining the Software Engineering Program starting in May 2020. Expected graduation in late August 2020.
+**[Flatiron School](https://flatironschool.com)**<br>
+** 2020 - present**
 * Doing full stack web dev things!
+* Joining the Software Engineering Program from May to August 2020.
 
-**[Treehouse](https://teamtreehouse.com/mkopsho)
-**2019 - present
-* Learning about a whole mess of things with a focus on Python and Javascript.
+**[Treehouse](https://teamtreehouse.com/mkopsho)**<br>
+**2019 - present**
+* Learning about a whole mess of things!
+* Current focus is on Python and Javascript.
 
 **Kennesaw State University - B.A. World History**<br>
 **2007 - 2011**
