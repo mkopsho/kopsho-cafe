@@ -1,18 +1,11 @@
 # Hi! I'm Michael Kopsho. 
 # Here's a bunch of stuff that I've done.
 ## My Professional Intent
-In my 9ish years of experience working in the technology industry, I've worked in varied levels of the organization: individual contributor, people manager, and work manager. Currently, I'm a project manager by name and a coach and educator in practice. I help teams make sense of their work through work visualization, experimentation and validation, and sensemaking.
+Hi! After working for 5 years in management roles, I'm seeking a change in my career. I'm joining the [Flatiron School](https://flatironschool.com) and taking their [Software Engineering course](https://flatironschool.com/career-courses/coding-bootcamp/atlanta#curriculum) in the summer/fall of 2020.
 
-My experience in these different roles at a rapidly-growing software company has shown me that we need sensible thinking at each level of an organization. We need leaders who are focused on strategy, are well-informed of the rapidly-changing ecosystem around them, and can sense and respond to those changes appropriately. We need to enable teams to make well-informed, business-aligned decisions, deliver high-quality work at a sustainable pace, and be able to run frequent low-risk experiments with short feedback loops.
+My last company, Mailchimp, provided me with fantastic opportunities to learn, grow, and change with the company. We had about 150 employees when I started and ended with 1200 when I left. We had about five million customers when I started and ended with 25 million when I left. That's intense growth, and my job experience matches that intensity: I have had three different jobs in my 7-year tenure to meet the ever-changing needs of the company. Absurd (in a good way)!
 
-All of this is easier said than done; none of it is trivial. I'm professionally focused on and dedicated to making these goals a reality. I'm currently looking for opportunities in this space as a leader, coach, and educator. For me, any worthwhile role in this space would encompass these three responsibilities at least.
-
-## My Personal Word Cloud
-Here is a list things that I have direct experience with:
-
-People management, project management, process management, systems thinking, workshop facilitation, didactic and experiential education, conflict resolution, change management, workflow and organizational design and implementation, Kanban, Lean, Scrum, Six Sigma, pair programming, the Atlassian ecosystem, Impact Mapping, and cost of delay (CD3).
-
-I've also run enterprise hardware at a large and growing scale for many millions of users. I've worked directly with several tools to do this, including but not limited to: nix, bash, Git and Gitflow, Puppet, MySQL, apache, nginx, PHP, Python, Ruby, Zabbix, Elasticsearch, Kibana, and Pagerduty.
+Over time, I realized that I wanted to refocus my attention on the thing that got me into this industry in the first place: computers! And Flatiron feels like the perfect way to bootstrap this focus. After the course, I'll be actively seeking junior- to mid-level software engineer positions at a company building cool shit. I'll help you build that cool shit.
 
 ## My Experience
 
