@@ -36,7 +36,7 @@ Over time, I realized that I wanted to refocus my attention on the thing that go
 * Worked in a small team to directly build out and scale two colocated data centers in Atlanta and Suwanee, GA to handle Mailchimp’s rapidly growing user base.
 * Designed baked-in redundancy across each layer of our infrastructure: firewalls, routers, switches, ethernet ports, load balancers, web servers, databases, power supplies, and power circuits were all redundant in some way.
 * Led the effort to transfer all of our infrastructure from SoftLayer to our colocated facilities, which led to reduced mean time to failure for our systems, increased uptime for our users, and gave usan easier and robust way to scale.
-* Built and configured software and network infrastructure to scale our hardware infrastructure, which handled growth from five to ~10 million users during my time in this role.
+* Built and configured software and network infrastructure to scale our hardware infrastructure, which handled growth from around two to 9 million users during my time in this role.
 * Provisioned infrastructure for Mailchimp’s developers and worked on onboarding materials to instill a self-service approach to getting an application from ideation to production.
 * Part of the team that built the Mailchimp Pro product offering, which formed the foundation that became our “data pipeline” feeding all internal Mailchimp applications.
 * Piloted Jira and Confluence to keep track of all of our work on the team, which was adopted by the whole department and eventually the entire company.
