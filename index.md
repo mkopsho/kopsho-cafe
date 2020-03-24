@@ -5,7 +5,7 @@ Hi! After working for 5 years in management roles, I'm seeking a change in my ca
 
 My last company, Mailchimp, provided me with fantastic opportunities to learn, grow, and change with the company. We had about 150 employees when I started compared with 1200 now. We had a couple of million customers when I started and have about 12 million now. That's intense growth, and my job experience matches that intensity: I have had three pretty different jobs in my 7-year tenure to meet the ever-changing needs of the company. Absurd (in a good way)!
 
-Over time, I realized that I wanted to refocus my attention on the thing that got me into this industry in the first place: computers! And Flatiron feels like the perfect way to bootstrap this focus. After the course, I'll be actively seeking junior- to mid-level software engineer positions at a company building cool shit. _I'll help you build that cool shit_.
+Over time, I realized that I wanted to refocus my attention on the thing that got me into this industry in the first place: computers! And Flatiron feels like the perfect way to bootstrap this focus. After the course, I'll be actively seeking software engineer positions at a place building cool shit. _I'll help you build that cool shit_.
 
 ## My Experience
 
