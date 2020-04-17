@@ -11,7 +11,7 @@ Over time, I realized that I wanted to refocus my attention on the thing that go
 
 ### [Mailchimp](https://mailchimp.com/), Atlanta 
 **Project Manager, Engineering**<br>
-**March 2016 - Present**
+**March 2016 - April 2020**
 * Track _all_ work across the entire Engineering department. This includes in-flight work, future options, and completed work.
 * Manage major technical projects, including:
    The design and implementation of our internal S3-like infrastructure leveraging Ceph. 
@@ -60,12 +60,12 @@ Over time, I realized that I wanted to refocus my attention on the thing that go
 
 ## Education
 **[Flatiron School](https://flatironschool.com)**<br>
-**Spring 2020**
+**May 2020 - present**
 * Doing full stack web dev things!
 * Joining the Software Engineering Program from May to August 2020.
 
 **[Treehouse](https://teamtreehouse.com/mkopsho)**<br>
-**Fall 2019 - present**
+**Continuous**
 * Learning about a whole mess of things!
 * Current focus is on Python and Javascript.
 
