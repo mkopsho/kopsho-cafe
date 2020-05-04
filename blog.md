@@ -1,4 +1,4 @@
-### @angle-left [back to resume](./index.html)
+### <i class="fas fa-angle-left"></i>[back to resume](./index.html)
 
 # My [Flatiron School](https://flatironschool.com) blog
 
