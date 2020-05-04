@@ -1,7 +1,7 @@
 # Hi! I'm Michael Kopsho. 
 # Here's a bunch of stuff that I've done.
 ## My Professional Intent
-Hi! After working for 5 years in management roles, I'm seeking a change in my career. I'm joining the [Flatiron School](https://flatironschool.com) and taking their [Software Engineering course](https://flatironschool.com/career-courses/coding-bootcamp/atlanta#curriculum) in the summer/fall of 2020.
+Hi! After working for 5 years in management roles, I'm seeking a change in my career. I'm joining the [Flatiron School](https://flatironschool.com) and taking their [Software Engineering course](https://flatironschool.com/career-courses/coding-bootcamp/atlanta#curriculum) in the summer/fall of 2020. I'm currently blogging about my progress [here](./blog.html).
 
 My last company, Mailchimp, provided me with fantastic opportunities to learn, grow, and change with the company. We had about 150 employees when I started compared with 1200 now. We had a couple of million customers when I started and have about 12 million now. That's intense growth, and my job experience matches that intensity: I have had three pretty different jobs in my 7-year tenure to meet the ever-changing needs of the company. Absurd (in a good way)!
 
