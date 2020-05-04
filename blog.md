@@ -1,4 +1,4 @@
-### <-- [back to resume](./index.html)
+### @angle-left [back to resume](./index.html)
 
 # My [Flatiron School](https://flatironschool.com) blog
 
