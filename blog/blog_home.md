@@ -6,4 +6,4 @@ This blog follows my progress in the [fulltime online software engineering progr
 
 * * *
 
-[⟵   back to resume](./index.html)
+[⟵   back to resume](../index.html)
