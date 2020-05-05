@@ -4,4 +4,4 @@ Placeholder text.
 
 * * *
 
-[⟵   back to resume](./blog_home.html)
+[⟵   back to blog](./blog_home.html)
