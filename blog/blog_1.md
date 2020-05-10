@@ -6,13 +6,13 @@ I recently got done with a 7-year stint at a mid-stage startup. Working for this
 
 That was in 2015. That is also when I decided to become a manager.
 
-[Lumbergh](../images/office_space.gif)
+![Lumbergh](../images/office_space.gif)
 
 I have been in management roles since then doing what needed to be done. While it was rewarding in its own way, I never really felt "at home" as a manager. I found myself gravitating more towards technical interests. But the only way I could be involved in that work at my job was at a very high, very "managerial" level. This got me thinking about what I'd like to do, rather than continuing to do what I was already doing and that I didn't really enjoy.
 
 Also, while coding is obviously steeped in science and mathematics, it is just unknown and abstract enough to me to feel like alchemy. I can take essentially nothing and transmute it into an application, website, you name it. I can move data from here to there and back again, transforming it along the way. I can try stuff and experiment quickly, roll back if needed, and try again with something different. That feels very good!
 
-[Alchemy](../images/alchemy.gif)
+![Alchemy](../images/alchemy.gif)
 
 Aaaaaaaaaaaannd that's why I'm here! I want to clear my mind, tabula rasa style, and learn how to build things with code. The rigor and pace of coding bootcamps really jives with how I like to learn and do, not to mention that I have a cohort of determined folks to keep me honest about what I signed up to do.
 
