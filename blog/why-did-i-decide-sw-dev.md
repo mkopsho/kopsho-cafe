@@ -4,7 +4,7 @@ I've actually been working in the tech industry for some time. You may be asking
 
 I recently got done with a 7-year stint at a mid-stage startup. Working for this startup was fantastic for me; I got to work on a small team full of smart people, learned *a ton* on the job, and got to build big things. I was working in Infrastructure/Operations so I got to touch a bit of everything computer-related! The startup was very successful, grew very fast, and eventually cornered the market on email marketing ([nbd](https://marketingland.com/mailchimp-claims-over-60-share-of-email-industry-in-latest-report-273926)). As we grew, we realized that we needed folks to help people coalesce and organize around work in an efficient and sustainable way.
 
-That was in 2015. That is also when I decided to become a manager.
+That was in 2015. That is also when I decided to become a manager. Y'know, to help with the coalescing and organizing.
 
 ![Lumbergh](../images/office_space.gif)
 
