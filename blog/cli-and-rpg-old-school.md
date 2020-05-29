@@ -4,13 +4,15 @@ This is a rundown of my first project for the Flatiron School software developme
 
 ## dnd-companion
 
-I built a pretty useful CLI application that takes and presents data from [https://www.dnd5eapi.co/](https://www.dnd5eapi.co/) to a would-be dungeon master. I am *very* fortunate to have found a completely public API that is [well-maintained](https://github.com/bagelbits/5e-srd-api) and has an [active community](https://github.com/bagelbits/5e-database) of folks that nurtures and maintains its accuracy.
+I built a CLI application for folks who like to be the role of dungeon master in Dungeons and Dragons games but haven't committed the ruleset to memory.
+
+The app takes and presents data from [https://www.dnd5eapi.co/](https://www.dnd5eapi.co/) to a would-be DM. I'm pretty fortunate to have found a public and complete DnD API that is [well-maintained](https://github.com/bagelbits/5e-srd-api) and has an [active community](https://github.com/bagelbits/5e-database) of folks that nurtures and maintains its accuracy.
 
 The app itself does these high-level things:
 
-1. Crawls the API resources of a given endpoint and generates parsed JSON.
+1. Crawls the API resources of a given endpoint and parses JSON.
 2. Collects attributes and instantiates DnD objects from that JSON.
-3. Look at the data!
+3. Organizes and displays data!
 
 ## Crawling resources
 When a user spins up the app, they have created a new instance of the `CLI` class, which handles all of the menu behavior. They are immediately greeted by this title card and several menu options:
@@ -51,9 +53,12 @@ Or equipment stats:
 
 ![dnd-companion](../images/cli/equipment.png)
 
-Or monsters by challenge rating (CR):
+Or monsters by challenge rating (CR)...:
 
 ![dnd-companion](../images/cli/monster1.png)
+
+...and their relevant info:
+
 ![dnd-companion](../images/cli/monster2.png)
 
 Awesome! These all get handled by the CLI class, which houses methods that iterate through the appropriate list of objects and displays the data that fits our user's criteria (and formats it too!).
@@ -63,5 +68,9 @@ Awesome! These all get handled by the CLI class, which houses methods that itera
 I spent the weekend before the project was due pondering the design of this project but never committed anything to paper, and that was probably a mistake. I had a baseline "MVP" in mind, which was to get and display information about conditions, spells, and equipment. After that was done, however, I started branching out into monsters and started a character generator. While I'm happy with the results of working on the `Monster` class, I ended up shuttering the character generator because it was very complex and I wouldn't be able to finish it in time. I spent a few hours on this when I could have been refactoring and refining my code to make it truly polished!
 
 ### Refactor, refine, and stay DRY
+As I was writing code, I started to realize how repeatable a lot of this code was. I ended up writing a lot of repeated code throughout my application in the first couple of days in order to get things up and running. This approach actually worked out for me because I got my application working ASAP and was able to dedicate a good chunk of time to refactoring. Of the code I refactored, here are the highlights:
+1. Building a module with class methods to extend into my other classes. [1](https://github.com/mkopsho/dnd-companion/commit/7c67470a1bbffeacb2259bd26d42b8afa5b6ef3e)
+2. Writing a single method in the `CLI` class to handle object generation based on user input. [1](https://github.com/mkopsho/dnd-companion/commit/7c67470a1bbffeacb2259bd26d42b8afa5b6ef3e)
+3. Converting all occurrences of empty array declaration + .each to .map. [1](https://github.com/mkopsho/dnd-companion/commit/ba44386693d744c6103c0e3df036b5afe9db38c2) [2](https://github.com/mkopsho/dnd-companion/commit/4f6f2842091675d383c7a027f69b89e6b2217b3e)
 
-### 
+Refactoring was a surprisingly peaceful process that I thoroughly enjoyed!
