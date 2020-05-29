@@ -14,11 +14,12 @@ The app itself does these high-level things:
 
 ## Crawling resources
 When a user spins up the app, they have created a new instance of the `CLI` class, which handles all of the menu behavior. They are immediately greeted by this title card and several menu options:
+
 ![dnd-companion](../images/cli/title_card.png)
 
 If they choose any of the menu items (except for "Exit"), a method is called which will parse the user input for the resource and tee that resource off to the appropriate class method. These methods call other methods in an `API` class that do the heavy lifting of getting API responses and parsing the JSON in those responses.
 
-## Collect attributes and instantiate objects
+## Collecting attributes and instantiating objects
 Now that we have some JSON to play with, we can start grabbing the information that we want to flesh out our object attributes. Each menu item listed above has its own class to establish a clear dilineation between objects. They also have unique attributes; for example, a single `spell` object looks like this when created:
 ```
 => #<Spell:0x00007fd84fa9b6c0
@@ -41,16 +42,19 @@ tack against the target. On a hit, the target takes 4d4 acid damage immediately 
 ```
 Other data -- like `equipment`, `conditions`, and `monsters` -- get their own unique attributes.
 
-## Get data!
+## Getting dat data!
 Now, the fun part! We can look at each of these objects in a way that makes sense, like looking at spells by class *and* level:
-![dnd-companion](./images/cli/spells.png)
+
+![dnd-companion](../images/cli/spells.png)
 
 Or equipment stats:
-![dnd-companion](./images/cli/equipment.png)
+
+![dnd-companion](../images/cli/equipment.png)
 
 Or monsters by challenge rating (CR):
-![dnd-companion](./images/cli/monster1.png)
-![dnd-companion](./images/cli/monster2.png)
+
+![dnd-companion](../images/cli/monster1.png)
+![dnd-companion](../images/cli/monster2.png)
 
 Awesome! These all get handled by the CLI class, which houses methods that iterate through the appropriate list of objects and displays the data that fits our user's criteria (and formats it too!).
 
