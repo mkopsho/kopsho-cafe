@@ -72,5 +72,6 @@ As I was writing code, I started to realize how repeatable a lot of this code wa
 1. Building a module with class methods to extend into my other classes. [1](https://github.com/mkopsho/dnd-companion/commit/7c67470a1bbffeacb2259bd26d42b8afa5b6ef3e)
 2. Writing a single method in the `CLI` class to handle object generation based on user input. [1](https://github.com/mkopsho/dnd-companion/commit/7c67470a1bbffeacb2259bd26d42b8afa5b6ef3e)
 3. Converting all occurrences of empty array declaration + .each to .map. [1](https://github.com/mkopsho/dnd-companion/commit/ba44386693d744c6103c0e3df036b5afe9db38c2) [2](https://github.com/mkopsho/dnd-companion/commit/4f6f2842091675d383c7a027f69b89e6b2217b3e)
+4. Using `send` to automatically assign instance variables and object attributes on initialize. [1](https://github.com/mkopsho/dnd-companion/commit/b706424a624bea52a1304dfab1b1bd9c8cd2ac1f)
 
 Refactoring was a surprisingly peaceful process that I thoroughly enjoyed!
