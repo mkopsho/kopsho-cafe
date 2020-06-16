@@ -1,4 +1,4 @@
-## My Experience
+## My Resume
 
 ### [Mailchimp](https://mailchimp.com/), Atlanta 
 **Project Manager, Engineering**<br>
