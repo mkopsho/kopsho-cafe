@@ -1,5 +1,4 @@
-## My Resume
-
+## Professional Experience
 ### [Mailchimp](https://mailchimp.com/), Atlanta 
 **Project Manager, Engineering**<br>
 **March 2016 - April 2020**
@@ -32,16 +31,22 @@
 * Part of the team that built the Mailchimp Pro product offering, which formed the foundation that became our “data pipeline” feeding all internal Mailchimp applications.
 * Piloted Jira and Confluence to keep track of all of our work on the team, which was adopted by the whole department and eventually the entire company.
 
+* * *
+
 ### [Akamai Technologies](https://akamai.com/), Atlanta
 **Network Infrastructure Technician**<br>
 **August 2011 - May 2013**
 * Coordinated with a team of Network Infrastructure Technicians and Engineers to deploy and maintain thousands of servers that power Akamai’s content delivery and storage networks.
 * Traveled around to and worked in 5 different colocated datacenters scattered across metropolitan Atlanta.
 
+* * *
+
 ### [Comnexia](https://www.comnexia.com/), Roswell GA
 **IT Support**<br>
 **April 2011 - July 2011**
 * Level 1 and 2 IT support for Windows systems.
+
+* * *
 
 ### [EZ Trade Live](http://www.eztradelive.com/), Marietta GA
 **Server Technician**<br>
@@ -62,5 +67,6 @@
 * Learning about a whole mess of things!
 * Current focus is on Python and Javascript.
 
-**Kennesaw State University - B.A. World History**<br>
+**[Kennesaw State University](https://www.kennesaw.edu/)**<br>
+**B.A. World History**<br>
 **Fall 2007 - Spring 2011**
