@@ -1,4 +1,5 @@
 # CLIs and RPGs: an old-school interface for an old-school game
+#### May 2020
 
 This is a rundown of my first project for the Flatiron School software development bootcamp. You can check out a demo of the project [here](https://www.youtube.com/watch?v=KdRx_dLqikA) and the code [here](https://github.com/mkopsho/dnd-companion).
 
