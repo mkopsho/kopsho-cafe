@@ -76,3 +76,5 @@ As I was writing code, I started to realize how repeatable a lot of this code wa
 4. Using `send` to automatically assign instance variables and object attributes on initialize. [1](https://github.com/mkopsho/dnd-companion/commit/b706424a624bea52a1304dfab1b1bd9c8cd2ac1f)
 
 Refactoring was a surprisingly peaceful process that I thoroughly enjoyed!
+
+[⟵   back to blog](./flatiron-blog.html)

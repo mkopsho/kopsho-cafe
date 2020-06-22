@@ -8,4 +8,3 @@ This blog follows my progress in the [fulltime online software engineering progr
 3. TBD!
 
 * * *
-[⟵   back to resume](../index.html)
