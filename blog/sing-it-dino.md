@@ -9,10 +9,10 @@ This is a rundown of my second project for the Flatiron School software developm
 
 I like to homebrew beer in my free time. It's a deep and productive hobby which I really enjoy. What I *don't* enjoy, however, is keeping track of all of my recipes! I typically go the old-school pen-and-paper route, which leads to messy bookkeeping.
 
-In comes homebrew-ledger! It's a small web app built with the lightweight [Sinatra](http://sinatrarb.com/) Ruby framework. homebrew-ledger is meant to store, track, and share homebrew recipes. It can be used either publically or privately!
+In comes [homebrew-ledger](https://github.com/mkopsho/homebrew-ledger)! It's a small web app built with the lightweight [Sinatra](http://sinatrarb.com/) Ruby framework. homebrew-ledger is meant to store, track, and share homebrew recipes. It can be used either publically or privately!
 
 ## Stubbenville, OH
-So, I learned my lesson from [last project](../cli-and-rpg-old-school.index.html) and actually wrote down the low-level design of my project as I was mulling it over last weekend! Huzzah!
+So, I learned my lesson from [last project](../blog/cli-and-rpg-old-school.html) and actually wrote down the low-level design of my project as I was mulling it over last weekend! Huzzah!
 
 ![chicken-scratch](../images/sinatra/chicken-scratch.jpg)
 
