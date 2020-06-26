@@ -5,6 +5,6 @@ This blog follows my progress in the [fulltime online software engineering progr
 
 1. [Why did I decide to learn software development?](./why-did-i-decide-sw-dev.html)
 2. [CLIs and RPGs: an old-school interface for an old-school game](./cli-and-rpg-old-school.html)
-3. TBD!
+3. [Sing it, Dino! Sinatra and the King of Cool](./sing-it-dono.html)
 
 * * *
