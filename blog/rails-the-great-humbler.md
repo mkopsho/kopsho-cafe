@@ -1,4 +1,4 @@
-# Rails: The Great Humbler
+# Hark, Rails! The Great Humbler!
 #### July 2020
 
 ![me_irl](../images/rails/buster_keaton_rails.gif)
