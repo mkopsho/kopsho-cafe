@@ -1,4 +1,4 @@
-# Lumbering JSON Catapults: JS + Rails API
+# Slaying Trout with JSON
 #### August 2020
 
 ![the-real-trout-slayer](../images/js_rails/the_real_trout_slayer.jpg)
