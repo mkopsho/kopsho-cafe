@@ -1,5 +1,5 @@
-# Hi! I'm Michael Kopsho. 
-# Here's a bunch of tech stuff I'm doing.
+# Michael Kopsho | mostly good
+# here's a bunch of tech stuff that I've done.
 
 * * *
 
