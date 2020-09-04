@@ -39,3 +39,5 @@ For example, the `sinatra-flash` gem allows use of a `flash` hash that we can sa
 Another thing I learned was the power of `<label for= >` tag in forms. When I first learned about it, I didn't actually understand what it was doing and so I thought that it could be ignored. I wrote all of my forms without this tag. I ended up doing some research about the tag, and read that it is important for accessibility (and a very low effort to implement). It makes the form targets bigger!
 
 Overall, I really enjoy Sinatra. It seems like a great framework to learn web apps on. I'm even more excited for Rails now!
+
+[⟵   back to blog](./flatiron-blog.html)

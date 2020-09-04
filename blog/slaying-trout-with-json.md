@@ -55,3 +55,5 @@ This is quite obviously terrible and will need to be fixed before I host the app
 
 ## Final Thoughts
 Overall, this was a project that challenged by perception of how programming languages typically behave; the differences between object oriented programming and functional programming are stunning. Javascript does have decent ways to build OOP programs with its classes, but the real magic of Javascript seems to be throwing around functions.
+
+[⟵   back to blog](./flatiron-blog.html)
