@@ -8,5 +8,6 @@ This blog follows my progress in the [fulltime online software engineering progr
 3. [Sing it, Dino! Sinatra and the King of Cool](./sing-it-dino.html)
 4. [Hark, Rails! The Great Humbler!](./rails-the-great-humbler.html)
 5. [Slaying Trout with JSON](./slaying-trout-with-json.html)
+6. [React Conventions and Stewardship](./react-conventions-and-stewardship.html)
 
 * * *
