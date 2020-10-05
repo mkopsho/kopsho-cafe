@@ -1,4 +1,4 @@
-# Michael Kopsho | mostly good
+# Michael Kopsho
 # here's a bunch of tech stuff that I've done.
 
 * * *
