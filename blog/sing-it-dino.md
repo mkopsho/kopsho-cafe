@@ -40,4 +40,4 @@ Another thing I learned was the power of `<label for= >` tag in forms. When I fi
 
 Overall, I really enjoy Sinatra. It seems like a great framework to learn web apps on. I'm even more excited for Rails now!
 
-[⟵   back to blog](./flatiron-blog.html)
+[⟵   back to blog](./blog-flatiron.html)

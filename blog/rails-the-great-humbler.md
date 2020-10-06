@@ -113,4 +113,4 @@ I think the above wireframe would have helped to solidify concepts earlier in th
 
 Overall, I'm content with how my project turned out. I don't think many people would use it over, say, Trello or Asana or any of the multitude of productivity apps on the market, but I'm still glad to have built it. I learned a lot about Rails conventions and how to to build a bona fide web app with the framework. As with all of my projects, I would like to revisit the app in the future to further refine and refactor, and maybe make it more useful. Thanks for reading!
 
-[⟵   back to blog](./flatiron-blog.html)
+[⟵   back to blog](./blog-flatiron.html)
