@@ -12,5 +12,5 @@ If you'd like to talk, feel free to hit me up at any of the places listed in the
 
 ## There are some things you can do here:
 * Take a gander at my [resume](./resume.html).
-* Read my [blog](./blog/flatiron-blog.html) documenting my experience at Flatiron School.
+* Read my [blog](./blog/blog-flatiron.html) documenting my experience at Flatiron School.
 * Scrutinize my [projects](./projects.html) (TBD).
