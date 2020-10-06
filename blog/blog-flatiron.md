@@ -9,5 +9,6 @@ This blog follows my progress in the [fulltime online software engineering progr
 4. [Hark, Rails! The Great Humbler!](./rails-the-great-humbler.html)
 5. [Slaying Trout with JSON](./slaying-trout-with-json.html)
 6. [React Conventions and Stewardship](./react-conventions-and-stewardship.html)
+7. [Trials and Tribulations at the Flatiron School](./trials-and-tribulations.html)
 
 * * *
