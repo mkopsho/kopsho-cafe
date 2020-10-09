@@ -2,7 +2,20 @@
 ---
 
 @import "{{ site.theme }}";
+
+@font-face {
+  font-family: 'embro';
+  src: url('../fonts/embro-semibold.woff') format('woff'),
+       url('../fonts/embro-semibold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #fcecd4
+}
+
+h1, h2 {
+  font-family: 'embro'
 }
