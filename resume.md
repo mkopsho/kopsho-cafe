@@ -32,7 +32,7 @@ Ruby, Sinatra, Rails, SQL, JavaScript, React/Redux, Bash, Python, HTML, CSS, Git
 * Used [React](https://reactjs.org/) to build a responsive single-page application and a Rails backend API to store, retrieve and modify data.
 * Refactored the project with [Redux](https://redux.js.org/) and [Thunk](https://github.com/reduxjs/redux-thunk) to utilize a global data store and to control asynchronous responses.
 * Leveraged [react-router](https://reactrouter.com/) to give users sensible navigation and simulate a multi-page application.  
----
+___
 
 ## Experience
 ### [Mailchimp](https://mailchimp.com/), Atlanta | *May 2013 - April 2020*
@@ -59,20 +59,20 @@ Ruby, Sinatra, Rails, SQL, JavaScript, React/Redux, Bash, Python, HTML, CSS, Git
 * Designed and implemented redundancy across each layer of our infrastructure: firewalls, routers, switches, ethernet ports, load balancers, web servers, databases, power supplies, and power circuits were all redundant in some way.
 * Led the effort to transfer all of our infrastructure from SoftLayer to our collocated facilities, which led to reduced mean time to failure for our systems and increased uptime for our users.
 * Provisioned infrastructure for Mailchimp’s developers and worked on onboarding materials to enable a self-service approach to getting a web application from local developer environments to production.  
----
+___
 
 ### [Akamai Technologies](https://akamai.com/), Atlanta
 **Network Infrastructure Technician**  
 *August 2011 - May 2013*
 * Coordinated with a team of Network Infrastructure Technicians and Engineers to deploy and maintain thousands of servers that power Akamai’s content delivery and storage networks.
 * Traveled around to and worked in 5 different collocated data centers scattered across metropolitan Atlanta.  
----
+___
 
 ### [EZ Trade Live](http://www.eztradelive.com/), Marietta GA
 **Server Technician**  
 *August 2009 - April 2011*
 * Built, configured, and shipped refurbished servers.  
----
+___
 
 ## Education
 **[Flatiron School](https://flatironschool.com)**  
