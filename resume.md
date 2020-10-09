@@ -1,15 +1,14 @@
 # Resume
 [Click to Download as PDF](./resume.pdf)
 ## Summary
-* * *
 Ex-project manager turned coding bootcamp graduate with over a decade of technical experience including seven years at Mailchimp in systems engineering and project management. Proficient and interested in many parts of the stack, including writing backend/frontend code, observability, networking, and operating production. Looking for a hands-on technical role with a high potential company.
+* * *
 
-## Technical Skills
-* * * 
+## Technical Skills 
 Ruby, Sinatra, Rails, SQL, JavaScript, React/Redux, Bash, Python, HTML, CSS, Git, Agile coaching, Impact Mapping, User Story Mapping, Scrum, Jira, Confluence, Trello
+* * *
 
 ## Technical Projects
-* * *
 **DnD Companion** - Ruby | [Github](https://github.com/mkopsho/dnd-companion) | [Demo](https://www.youtube.com/watch?v=KdRx_dLqikA)  
 *A helper app for fledgling Dungeon Masters that displays spells, conditions, and monsters in Dungeons and Dragons.*  
 * Crawled the [DnD 5e API](https://www.dnd5eapi.co/) to pull and parse data, which was then used to build objects that users could interact with.
@@ -33,9 +32,9 @@ Ruby, Sinatra, Rails, SQL, JavaScript, React/Redux, Bash, Python, HTML, CSS, Git
 * Used [React](https://reactjs.org/) to build a responsive single-page application and a Rails backend API to store, retrieve and modify data.
 * Refactored the project with [Redux](https://redux.js.org/) and [Thunk](https://github.com/reduxjs/redux-thunk) to utilize a global data store and to control asynchronous responses.
 * Leveraged [react-router](https://reactrouter.com/) to give users sensible navigation and simulate a multi-page application.
+* * *
 
 ## Experience
-* * *
 ### [Mailchimp](https://mailchimp.com/), Atlanta | *May 2013 - April 2020*
 **Project Manager, Engineering**  
 *March 2016 - April 2020*
@@ -73,9 +72,9 @@ Ruby, Sinatra, Rails, SQL, JavaScript, React/Redux, Bash, Python, HTML, CSS, Git
 **Server Technician**  
 *August 2009 - April 2011*
 * Built, configured, and shipped refurbished servers.
+* * *
 
 ## Education
-* * *
 **[Flatiron School](https://flatironschool.com)**  
 *May 2020 - October 2020*
 * Doing full stack web dev things!
