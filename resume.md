@@ -31,7 +31,7 @@ Ruby, Sinatra, Rails, SQL, JavaScript, React/Redux, Bash, Python, HTML, CSS, Git
 *Web app that displays National Park data and allows users to open, search, and favorite them.*  
 * Used [React](https://reactjs.org/) to build a responsive single-page application and a Rails backend API to store, retrieve and modify data.
 * Refactored the project with [Redux](https://redux.js.org/) and [Thunk](https://github.com/reduxjs/redux-thunk) to utilize a global data store and to control asynchronous responses.
-* Leveraged [react-router](https://reactrouter.com/) to give users sensible navigation and simulate a multi-page application.
+* Leveraged [react-router](https://reactrouter.com/) to give users sensible navigation and simulate a multi-page application.  
 * * *
 
 ## Experience
@@ -58,20 +58,20 @@ Ruby, Sinatra, Rails, SQL, JavaScript, React/Redux, Bash, Python, HTML, CSS, Git
 * Built and configured software and network infrastructure to scale our physical infrastructure, which withstood growth from about two to nine million users in this timeframe.
 * Designed and implemented redundancy across each layer of our infrastructure: firewalls, routers, switches, ethernet ports, load balancers, web servers, databases, power supplies, and power circuits were all redundant in some way.
 * Led the effort to transfer all of our infrastructure from SoftLayer to our collocated facilities, which led to reduced mean time to failure for our systems and increased uptime for our users.
-* Provisioned infrastructure for Mailchimp’s developers and worked on onboarding materials to enable a self-service approach to getting a web application from local developer environments to production.
+* Provisioned infrastructure for Mailchimp’s developers and worked on onboarding materials to enable a self-service approach to getting a web application from local developer environments to production.  
 * * *
 
 ### [Akamai Technologies](https://akamai.com/), Atlanta
 **Network Infrastructure Technician**  
 *August 2011 - May 2013*
 * Coordinated with a team of Network Infrastructure Technicians and Engineers to deploy and maintain thousands of servers that power Akamai’s content delivery and storage networks.
-* Traveled around to and worked in 5 different collocated data centers scattered across metropolitan Atlanta.
+* Traveled around to and worked in 5 different collocated data centers scattered across metropolitan Atlanta.  
 * * *
 
 ### [EZ Trade Live](http://www.eztradelive.com/), Marietta GA
 **Server Technician**  
 *August 2009 - April 2011*
-* Built, configured, and shipped refurbished servers.
+* Built, configured, and shipped refurbished servers.  
 * * *
 
 ## Education
@@ -81,5 +81,5 @@ Ruby, Sinatra, Rails, SQL, JavaScript, React/Redux, Bash, Python, HTML, CSS, Git
 * Joined the Software Engineering Program in May 2020 and graduated in October 2020.
 
 **[Kennesaw State University](https://www.kennesaw.edu/)**  
-**B.A. World History**
+**B.A. World History**  
 *Fall 2007 - Spring 2011*
