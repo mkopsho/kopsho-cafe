@@ -1,16 +1,11 @@
 # Michael Kopsho
-# here's a bunch of tech stuff that I've done.
+# tech | brewing | agile | games | existing
 
 * * *
 
-### My professional intent
-After working for 5 years in management roles, I'm seeking a change in my career. I've joined the [Flatiron School](https://flatironschool.com) and am currently taking their [Software Engineering course](https://flatironschool.com/career-courses/coding-bootcamp/atlanta#curriculum). I should graduate in late September if all goes well!
+## Who I am
+Recent coding bootcamp graduate with over a decade of technical experience. I [blog](./blog/blog-flatiron.html) about code, keep my [resume](./resume.html) up to date, and showcase some of my [projects](https://github.com/mkopsho).
 
-If you'd like to talk, feel free to hit me up at any of the places listed in the sidebar.
+I'm currently looking for work. Please hit me up anywhere in the side bar if you think I'd be a good fit for you, or just to chat!
 
-* * *
-
-## There are some things you can do here:
-* Take a gander at my [resume](./resume.html).
-* Read my [blog](./blog/blog-flatiron.html) documenting my experience at Flatiron School.
-* Scrutinize my [projects](./projects.html) (TBD).
+While not at work, you'll probably find me brewing beer, playing analog/digital games, or fishing! Would also love to chat about any of these, as well.
