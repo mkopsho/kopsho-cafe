@@ -162,4 +162,4 @@ I believe one of the reasons why it felt so therapeutic is because of the concep
 
 Thanks for taking the time to read this, and be good stewards!
 
-[⟵   back to blog](./blog-flatiron.html)
+[⟵   back to blog](./blog-home.html)

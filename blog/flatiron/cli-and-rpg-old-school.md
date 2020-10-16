@@ -77,4 +77,4 @@ As I was writing code, I started to realize how repeatable a lot of this code wa
 
 Refactoring was a surprisingly peaceful process that I thoroughly enjoyed!
 
-[⟵   back to blog](./blog-flatiron.html)
+[⟵   back to blog](./blog-home.html)

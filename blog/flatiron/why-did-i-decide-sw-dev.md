@@ -21,4 +21,4 @@ I'm hoping to learn a lot, build some things, and ultimately have some fun. I al
 
 * * *
 
-[⟵   back to blog](./blog-flatiron.html)
+[⟵   back to blog](./blog-home.html)

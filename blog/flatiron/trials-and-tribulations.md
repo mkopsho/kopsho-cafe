@@ -80,4 +80,4 @@ As if that wasn't enough, I also feel a strong need to practice algorithms and d
 Overall, this is one of the hardest things I've ever done. But also one of the most fulfilling and worthwhile. My journey is just beginning, and if you want to start yours, look no further than [Flatiron](https://flatironschool.com/).
 
 
-[⟵   back to blog](./blog-flatiron.html)
+[⟵   back to blog](./blog-home.html)
