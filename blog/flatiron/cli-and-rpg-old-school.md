@@ -18,7 +18,7 @@ The app itself does these high-level things:
 ## Crawling resources
 When a user spins up the app, they have created a new instance of the `CLI` class, which handles all of the menu behavior. They are immediately greeted by this title card and several menu options:
 
-![dnd-companion](../images/cli/title_card.png)
+![dnd-companion](../../images/cli/title_card.png)
 
 If they choose any of the menu items (except for "Exit"), a method is called which will parse the user input for the resource and tee that resource off to the appropriate class method. These methods call other methods in an `API` class that do the heavy lifting of getting API responses and parsing the JSON in those responses.
 
@@ -48,19 +48,19 @@ Other data -- like `equipment`, `conditions`, and `monsters` -- get their own un
 ## Getting dat data!
 Now, the fun part! We can look at each of these objects in a way that makes sense, like looking at spells by class *and* level:
 
-![dnd-companion](../images/cli/spells.png)
+![dnd-companion](../../images/cli/spells.png)
 
 Or equipment stats:
 
-![dnd-companion](../images/cli/equipment.png)
+![dnd-companion](../../images/cli/equipment.png)
 
 Or monsters by challenge rating (CR)...:
 
-![dnd-companion](../images/cli/monster1.png)
+![dnd-companion](../../images/cli/monster1.png)
 
 ...and their relevant info:
 
-![dnd-companion](../images/cli/monster2.png)
+![dnd-companion](../../images/cli/monster2.png)
 
 Awesome! These all get handled by the CLI class, which houses methods that iterate through the appropriate list of objects and displays the data that fits our user's criteria (and formats it too!).
 

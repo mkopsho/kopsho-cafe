@@ -1,7 +1,7 @@
 # Hark, Rails! The Great Humbler!
 #### July 2020
 
-![me_irl](../images/rails/buster_keaton_rails.gif)
+![me_irl](../../images/rails/buster_keaton_rails.gif)
 
 This post details my third project for the Flatiron School software development bootcamp. It was primarily written in Rails. You can check out the code [here](https://github.com/mkopsho/yapa).
 
@@ -9,7 +9,7 @@ This post details my third project for the Flatiron School software development 
 
 Thinking of coding project is hard. Very hard. Normally, if I know I have a project week coming up, I will spend the week or so before building a mental list of project ideas. Then I'll pick one the weekend preceding project week and start to design the app in my head.
 
-![also_me_irl](../images/rails/idea_manatee.gif)
+![also_me_irl](../../images/rails/idea_manatee.gif)
 
 This time, the well was dry. Very dry. I tried to source ideas from friends and family, which I have compiled [here](https://trello.com/b/ID33C6vC/code-project-ideas), but most of them felt too "big" to get done within a week's time.
 

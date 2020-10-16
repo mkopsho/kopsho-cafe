@@ -1,7 +1,9 @@
-![Flatiron School](https://upload.wikimedia.org/wikipedia/commons/0/04/Flatiron_School.png)
+# [The Blog™ (1958)](https://www.youtube.com/watch?v=TdUsyXQ8Wrs)
+
+![Flatiron School](../images/Flatiron_School.png)
 * * *
 
-This blog follows my progress in the [fulltime online software engineering program](https://flatironschool.com/career-courses/coding-bootcamp/online) at Flatiron School from May to September 2020. There will be seven posts in total; the first one is introductory, the next five will talk about my five major project milestones, and the final post will be about my last capstone project. Rad!
+This part of the blog follows my progress in the [fulltime online software engineering program](https://flatironschool.com/career-courses/coding-bootcamp/online) at Flatiron School from May to September 2020. There will be seven posts in total; the first one is introductory, the next five will talk about my five major project milestones, and the final post will be about my last capstone project. Rad!
 
 1. [Why did I decide to learn software development?](./flatiron/why-did-i-decide-sw-dev.html)
 2. [CLIs and RPGs: an old-school interface for an old-school game](./flatiron/cli-and-rpg-old-school.html)
@@ -12,3 +14,9 @@ This blog follows my progress in the [fulltime online software engineering progr
 7. [Trials and Tribulations at the Flatiron School](./flatiron/trials-and-tribulations.html)
 
 * * *
+![Misc](../images/miscellany.jpg )
+* * *
+
+This part of the blog follows post-grad miscellany; from new code projects to networking to algorithms to refactoring to learning new languages/frameworks/tools, it all goes here!
+
+1. [Building a Python twitterbot]()

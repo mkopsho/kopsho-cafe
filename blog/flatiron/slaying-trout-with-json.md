@@ -1,7 +1,7 @@
 # Slaying Trout with JSON
 #### August 2020
 
-![the-real-trout-slayer](../images/js_rails/the_real_trout_slayer.jpg)
+![the-real-trout-slayer](../../images/js_rails/the_real_trout_slayer.jpg)
 
 The **real** trout slayer!
 
@@ -15,7 +15,7 @@ The idea for this app originated when I started fly fishing with a few friends. 
 
 One of the things that stood out to me was how low-tech fishing was. That's probably a good thing (who wants to think about data while relaxing and fishing?), but it became difficult when sharing knowledge. What were the fish in the area biting on that day? Which lures would be good? How variable were the weather conditions in this part of the state park? We had a lot of fun answering these questions ourselves, but that's what sparked the idea behind this app. It would be stellar to have a lightweight and accessible webapp that anyone could use to answer these questions!
 
-![brf-fishing-report](../images/js_rails/brf_report.png)
+![brf-fishing-report](../../images/js_rails/brf_report.png)
 
 [Some folks](https://www.blueribbonflies.com/) do this really well!
 
@@ -36,7 +36,7 @@ Since this is a single-page application, my major focus was on the map: I wanted
 
 And that's essentially what I ended up doing; the map takes precedent over all other elements, the app title and menu items are fixed, and all other elements are dynamically rendered in the DOM depending on what the user does.
 
-![captured-gif](../images/js_rails/captured.gif)
+![captured-gif](../../images/js_rails/captured.gif)
 
 ## Challenges
 I had a couple major challenges with this project, but I think I'm better off for working through them.

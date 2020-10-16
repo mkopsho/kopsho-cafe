@@ -2,7 +2,7 @@
 ## Leaving things better than how you found them
 #### September 2020
 
-![stwrdshp](../images/react/stwrdshp.png)
+![stwrdshp](../../images/react/stwrdshp.png)
 
 This post details my fifth and final project for the Flatiron School software development bootcamp. It's a small app that crawls and shares National Park data from the [NPS API](https://www.nps.gov/subjects/developer/index.htm). The frontend was written in React and uses the Rails API for its backend. You can check out the code [here](https://github.com/mkopsho/stwrdshp).
 
@@ -17,7 +17,7 @@ Our national park service and the parks therein are a prime example and extensio
 
 ## React Componentry
 
-![componentry](../images/react/componentry.png)
+![componentry](../../images/react/componentry.png)
 
 The major requirements for this project were fairly straightforward:
 1. There should be 2 container and 5 stateless components,
@@ -37,7 +37,7 @@ A secondary goal was more a personal one: I believe that building things in this
 
 ## Refactoring into Conventions
 
-![pachinko](../images/react/pachinko.gif)
+![pachinko](../../images/react/pachinko.gif)
 
 *This* is what it sometimes feels like to keep track of props.
 
@@ -104,7 +104,7 @@ Presentational components like this typically do not need data, and if they did,
 Of course, with any React app that has more than a few components, sharing state between parent, sibling, and cousin components is almost required. Because you want some common data shared amongst those components, you have to have a stateful component pass that data down to its children as [props](https://reactjs.org/docs/components-and-props.html). This can become a real PITA if you need to share data between sibling or cousin components, as they have to traverse some data up to a common parent to pass that data back down the tree to a target component as props.
 
 ### Redux
-![global-store](../images/react/global-store.jpg)
+![global-store](../../images/react/global-store.jpg)
 
 This is where Redux comes in; we can build a global data store, configure that store with any number of [reducers](https://redux.js.org/basics/reducers), and "hook up" components to the store to use its data. After having built all of the components *without* Redux, I went back and refactored the ones that made sense to hook up to a store:
 ```
