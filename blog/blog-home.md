@@ -17,6 +17,6 @@ This part of the blog follows my progress in the [fulltime online software engin
 ![Misc](../images/miscellany.jpg )
 * * *
 
-This part of the blog follows post-grad miscellany; from new code projects to networking to algorithms to refactoring to learning new languages/frameworks/tools, it all goes here!
+This part of the blog follows post-grad miscellany; from new code projects to networking to algorithms to refactoring to learning new languages, frameworks, and tools, it all goes here!
 
-1. [Building a Python twitterbot]()
+1. [Building a (good!) Twitterbot with Python](./miscellany/twitter-bot.html)
