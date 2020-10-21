@@ -19,4 +19,4 @@ This part of the blog follows my progress in the [fulltime online software engin
 
 This part of the blog follows post-grad miscellany; from new code projects to networking to algorithms to refactoring to learning new languages, frameworks, and tools, it all goes here!
 
-1. [Building a (good!) Twitterbot with Python](./flatiron/twitter-bot.html)
+1. [Building a (good!) Twitterbot with Python](./twitter-bot.html)
