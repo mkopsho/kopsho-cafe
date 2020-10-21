@@ -7,7 +7,7 @@
 Hi, I'm Michael.
 - ### I [blog](./blog/blog-home.html) about code and computers.
 - ### Keep my [resume](./resume.html) nice n' tidy.
-- ### And showcase some of my [projects](https://github.com/mkopsho) (they will be hosted on this site somewhere TBD).
+- ### And showcase some of my [projects](./projects.html).
 
 I'm a recent coding bootcamp graduate with over a decade of technical experience. I voluntarily left my last job to pursue hands-on technical work. 
 
