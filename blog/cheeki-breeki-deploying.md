@@ -116,3 +116,5 @@ Breeki!
 
 ##[BOOM!](https://laughing-jones-91d70a.netlify.app/)
 It lives! It takes a little while to load the markers initially, which I believe is because the Heroku dynos fall asleep if they're not in use. So every time we connect is wakes the lil' bugger up.
+
+[⟵   back to blog](./blog-home.html)
