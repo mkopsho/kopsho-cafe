@@ -105,7 +105,7 @@ At this point, my backend is running! Huzzah! And because I set up that `root` r
 ...
 ```
 
-The only thing left was to change my frontend code to point to the Heroku endpoint any time that there is interaction with the backend, which are all ecapsulated by [`fetch()`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API):
+The only thing left was to change my frontend code to point to the Heroku endpoint any time that there is interaction with the backend:
 ```
 this.usersUrl = 'https://peaceful-tor-06133.herokuapp.com/users'
 this.sessionsUrl = 'https://peaceful-tor-06133.herokuapp.com/sessions'
@@ -115,6 +115,8 @@ this.markersUrl = 'https://peaceful-tor-06133.herokuapp.com/markers'
 Breeki!
 
 ## [BOOM!](https://laughing-jones-91d70a.netlify.app/)
-It lives! It takes a little while to load the markers initially, which I believe is because the Heroku dynos fall asleep if they're not in use. So every time we connect is wakes the lil' bugger up.
+It lives! It takes a little while to load the markers initially, which I believe is because the Heroku dynos fall asleep if they're not in use. So every time we connect after some time of inactivity, it wakes the lil' bugger up and fleshes out our map with saved markers.
+
+Overall I'm happy with how this setup turned out, though I am thinking through ways to make the app more useful generally and to decrease those load times from Heroku. I am pursuing my AWS Solutions Architect Certification via Udemy/A Cloud Guru. Perhaps...?
 
 [⟵   back to blog](./blog-home.html)
