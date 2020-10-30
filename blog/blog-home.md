@@ -21,4 +21,5 @@ This part of the blog follows post-grad miscellany; from new code projects to ne
 
 1. [Building a (good!) Twitterbot with Python](./twitter-bot.html)
 2. [Cheeki Breeki Deploying with Netlify and Heroku](./cheeki-breeki-deploying.html)
-3. [Django Unchained: Messing with Django, GraphQL, and React](./django-unchained.html)
+3. Django Futz: Messing with Django, GraphQL, and React
+   - [Part 1](./django-futz-1.html)

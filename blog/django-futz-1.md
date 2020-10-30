@@ -1,9 +1,9 @@
-# Django Unchained
+# Django Futz pt.1
 ## Messing with Django, GraphQL, and React
 #### October 2020
 
 ## Striking Out
-> `strike out`, *verb*
+`strike out`, *verb*
 > 1: to enter upon a course of action
 > 2: to set out vigorously
 
@@ -15,8 +15,8 @@ Fortunately my job search was able to help guide my discipline; each listing has
 
 Aside from modern cloud computing platforms, I wanted to learn more languages, frameworks, and interesting or newer ways of building technology. My collection of potential jobs covers the gamut of technology, so I figure I should at least dabble in a bunch of them while entering the field. Enter Python, Django, and GraphQL. I wanted to create a barebones Django backend which supported a React frontend and used GraphQL to ferry data back and forth.
 
-## Django!
-Django is commonly referred to as "Python's equivalent to Rails". I've already [dabbled](./flatiron/rails-the-great-humbler.html) with [Rails](./flatiron/slaying-trout-with-json.html) a [bunch](./flatiron/react-conventions-and-stewardship.html), so I felt confident in my ability to figure Django out.
+## Enter Django!
+Django is commonly referred to as Python's equivalent to Rails. I've already [dabbled](./flatiron/rails-the-great-humbler.html) with [Rails](./flatiron/slaying-trout-with-json.html) a [bunch](./flatiron/react-conventions-and-stewardship.html), so I felt confident in my ability to figure Django out.
 
 And because Django has a rich community, I did just that! First of all, the Python community has many tools that help users create independent virtual environments so that their Python versions, packages, and other miscellany stay scoped to the project that they're trying to build. I decided to use [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv):
 ```
@@ -77,8 +77,15 @@ And, as with every change made to our data model, we will need to migrate our da
 python manage.py makemigrations
 python manage.py migrate
 ```
-Whew! Now that all that setup is out of the way, let's move onto GraphQL
 
-## Graphs!
+We can easily create some dummy data by running `python manage.py shell`:
+```
+from links.models import Link
+Link.objects.create(url='https://kopsho.cafe/', description='My personal site')
+Link.objects.create(url='https://twitter.com/natl_park_pics/', description='Pics of national parks')
+```
+This should look **very** similar to running a Rails console with `rails c` and instantiating some objects that way!
 
-## React!
+Whew. Now that all that setup is out of the way, let's move onto GraphQL in part 2 of this series (TBD).
+
+[⟵   back to blog](./blog-home.html)
