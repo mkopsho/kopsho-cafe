@@ -42,7 +42,9 @@ cd django-app
 python manage.py migrate
 python manage.py runserver
 ```
-If you've built a Rails app before, you likely already know what these programs do: sets up our project's file structure, runs initial database migrations, and runs a webserver!
+If you've built a Rails app before, you can likely tell what these programs are doing: setting up our project's file structure, running initial database migrations, and running a webserver! This webserver runs on `http://localhost:8000` by default, and, like Rails, you should see a default page showing that you didn't futz it up too hard:
+
+![django-home](../../images/django-futz/django-home.png)
 
 Django has the concept of `INSTALLED_APPS`, which is a list of applications in `settings.py` that are enabled in our overall Django app. We need to add our `graphene_django` package here and also need to let that package know where to find our app's schema:
 ```
