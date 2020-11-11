@@ -97,6 +97,6 @@ This should look **very** similar to running a Rails console with `rails c` and 
 
 ![df-brella](../../images/django-futz/df-brella.gif)
 
-And that's (almost) it for our Django portion! We've fairly easily set up a virtual environment, an entire Django app, and a very simple data model for the app. Now that all that setup is out of the way, we'll move on to Graphene/GraphQL in part 2 of this series (TBD).
+And that's (almost) it for our Django portion! We've fairly easily set up a virtual environment, an entire Django app, and a very simple data model for the app. Now that all that setup is out of the way, we'll move on to [Graphene/GraphQL in part 2 of this series](./django-futz-2.html).
 
 [⟵   back to blog](./blog-home.html)
