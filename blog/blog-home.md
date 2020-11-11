@@ -23,3 +23,4 @@ This part of the blog follows post-grad miscellany; from new code projects to ne
 2. [Cheeki Breeki Deploying with Netlify and Heroku](./cheeki-breeki-deploying.html)
 3. Django Futz: Messing with Django, GraphQL, and React
    - [Part 1](./django-futz-1.html)
+   - [Part 2](./django-futz-2.html)
