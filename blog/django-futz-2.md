@@ -76,7 +76,7 @@ query {
 
 Let's dissect this query a little bit:
 - `query` is an [operation type](https://graphql.org/learn/queries/#operation-name) that is commonly used when retrieving data. We can also use the `mutation` operation type if we wanted to change, or mutate, the data (this should remind you of GETs, POSTs, DELETEs, etc.).
-- `parks` is our collection of objects that we define in a controller or view,
+- `parks` is our collection of [types](https://graphql.org/learn/schema/#object-types-and-fields) that we define,
 - `id`, `name`, and `image` are [fields](https://graphql.org/learn/queries/#fields) from each `park` object whose data we want returned to us.
 
 And so, this would be our response:
@@ -98,6 +98,61 @@ And so, this would be our response:
 
 So we're doing much of the same stuff as we did in that more traditional REST approach, but we're *only querying for the data we need* and receiving *only that data* in the response. This can be very helpful in terms of predicting what data will be retrieved and help to minimize the amount of frontend code you need to loop and sort through your data.
 
-Of course, to get the GraphQL example working, we have some configuration to do first. Luckily GraphQL has loads of [libraries](https://graphql.org/code/#server-libraries) that we can use to get it working in our app. We will be using the [Graphene](https://graphene-python.org/) lib, specifically [`graphene-django`](https://docs.graphene-python.org/projects/django/en/latest/), to build this out!
+
+### Using Graphene
+Of course, to get the GraphQL example working, we have some configuration to do first. Luckily GraphQL has loads of [libraries](https://graphql.org/code/#server-libraries) that we can use to get it working in most modern web apps. We will be using the [Graphene](https://graphene-python.org/) lib, specifically [`graphene-django`](https://docs.graphene-python.org/projects/django/en/latest/), to build this out in the Django app that we made in [the previous section](./django-futz-1.html)!
+
+Recall from earlier our `Links` model definition:
+```
+class Link(models.Model):
+    url = models.URLField()
+    description = models.TextField(blank=True)
+```
+
+If you created some `Link` objects, you should be able to see them in the Django shell:
+```
+python manage.py shell
+>>> from link.models import Link
+>>> Link.objects.all()
+<QuerySet [<Link: Link object (23)>, <Link: Link object (24)>]>
+
+>>> Link.objects.all().values()
+<QuerySet [{'id': 23, 'url': 'https://kopsho.cafe', 'description': 'My personal site', {'id': 24, 'url': 'https://twitter.com/natl_park_pics/', 'description': 'Pics of national parks'}]>
+```
+
+As you can see, Django has its own ORM and queries its database via [`QuerySets`](https://docs.djangoproject.com/en/3.1/ref/models/querysets/). This should look very similar to Rails' [`ActiveRecord Query Interface`](https://guides.rubyonrails.org/active_record_querying.html), albeit with syntactical differences. It's worth brushing up on how Django does things before moving forward.
+
+In order to get GraphQL working, we need to setup a generic schema that describes our model and how we intend to fetch data via [resolvers](https://docs.graphene-python.org/en/latest/types/objecttypes/#resolvers):
+```
+/BASE_DIR/PROJECT_DIR/schema.py:
+import graphene
+import links.schema
+
+class Query(links.schema.Query, graphene.ObjectType):
+  pass
+
+schema = graphene.Schema(query=Query)
+```
+
+We also need a model-specific schema that includes a collection of GraphQL `types` and their respective `fields`. In our case, we want a GraphQL schema that defines the `Link` type and `name` and `url` fields:
+```
+/BASE_DIR/links/schema.py:
+import graphene
+from graphene_django import DjangoObjectType
+from .models import Link
+
+class LinkType(DjangoObjectType):
+  class Meta:
+    model = Link
+
+class Query(graphene.ObjectType):
+  links = graphene.List(LinkType)
+
+  def resolve_links(self, info, **kwargs):
+    return Link.objects.all()
+```
+
+
+
 
 [⟵   back to blog](./blog-home.html)

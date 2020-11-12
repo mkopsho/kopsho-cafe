@@ -89,9 +89,9 @@ python manage.py migrate
 
 Now that we have our data model setup, we can easily create some dummy data by running `python manage.py shell`:
 ```
-from links.models import Link
-Link.objects.create(url='https://kopsho.cafe/', description='My personal site')
-Link.objects.create(url='https://twitter.com/natl_park_pics/', description='Pics of national parks')
+>>> from links.models import Link
+>>> Link.objects.create(url='https://kopsho.cafe/', description='My personal site')
+>>> Link.objects.create(url='https://twitter.com/natl_park_pics/', description='Pics of national parks')
 ```
 This should look **very** similar to running a Rails console with `rails c` and instantiating some objects that way!
 
