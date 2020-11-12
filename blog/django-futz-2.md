@@ -152,7 +152,51 @@ class Query(graphene.ObjectType):
     return Link.objects.all()
 ```
 
+Now we can do some basic querying of our data with GraphQL. We will use [GraphiQL](https://github.com/graphql/graphiql) to do this, which is a nice interactive browser interface. We'll need to add it to a CSRF exempt list in order to use it:
+```
+/BASE_DIR/PROJECT_DIR/urls.py:
+...
+from django.views.decorators.csrf import csrf_exempt
+from graphene_django.views import GraphQLView
 
+urlpatterns = [
+  path('admin/', admin.site.urls),
+  path('graphql/', csrf_exempt(GraphQLView.as_view(graphiql=True))),
+```
 
+If your Django app isn't running, run it with `python manage.py runserver` and navigate to `http://localhost:8000/graphql/`. You should see an interactive window in which you can write GraphQL queries! Go ahead and do that:
+```
+query {
+  links {
+    id
+    description
+    url
+  }
+}
+```
+
+Press the "play" button to get a response back from the server. If you have `Link` objects, your response to look something like this:
+```
+{
+  "data": {
+    "links": [
+      {
+        "id": "23",
+        "description": "My personal site",
+        "url": "https://kopsho.cafe"
+      },
+      {
+        "id": "24",
+        "description": "Pics of national parks",
+        "url": "https://twitter.com/natl_park_pics/"
+      }
+    ]
+  }
+}
+```
+
+You can add and remove fields on the fly, re-run the query, and the response will update accordingly. GraphiQL is also aware of your schema, so it will error if you try to query for a type or field that doesn't exist, do autofill, etc.!
+
+Aaaaand that's it for this section. Here we learned some basic GraphQL concepts and functionality, setup GraphQL in our Django app via a Graphene library, and wrote some basic schemas to query our data. In the next section, we'll learn how to write an example `mutation` to modify our data and write an extremely basic React frontend to interact with it!
 
 [⟵   back to blog](./blog-home.html)
