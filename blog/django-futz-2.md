@@ -98,4 +98,6 @@ And so, this would be our response:
 
 So we're doing much of the same stuff as we did in that more traditional REST approach, but we're *only querying for the data we need* and receiving *only that data* in the response. This can be very helpful in terms of predicting what data will be retrieved and help to minimize the amount of frontend code you need to loop and sort through your data.
 
+Of course, to get the GraphQL example working, we have some configuration to do first. Luckily GraphQL has loads of [libraries](https://graphql.org/code/#server-libraries) that we can use to get it working in our app. We will be using the [Graphene](https://graphene-python.org/) lib, specifically [`graphene-django`](https://docs.graphene-python.org/projects/django/en/latest/), to build this out!
+
 [⟵   back to blog](./blog-home.html)
