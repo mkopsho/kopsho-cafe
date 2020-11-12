@@ -2,12 +2,12 @@
 ## Messing with Django, GraphQL, and React
 #### November 2020
 
-Welcome back! In [part 1 of this series](./django-futz-1.html), we set up a totally new Django app with all of its dependencies, the `graphene-django` package, a data model, and some dummy data to play around with. In this post, we'll be going through some basic [GraphQL](https://graphql.org/) functionality by comparing it with REST and running some example queries.
+Welcome back! In [part 1 of this series](./django-futz-1.html), we set up a totally new Django app with all of its dependencies, the `graphene-django` package, a data model, and some dummy data to play around with. In this post, we'll be going through some basic [GraphQL](https://graphql.org/) functionality by comparing it with REST, running some example queries, and get it setup in our app.
 
 ## GraphQL vs. REST
-If you've ever built a web application before, you likely know how to build an API. If you know how to build an API, you likely know what REST is and [why it's important](https://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven). Indeed, has helped to widley standardize how most applications talk to each other and set expectations for developers to comply with a REST-like model.
+If you've ever built a web application before, you likely know how to build an API. If you know how to build an API, you likely know what REST is and [why it's important](https://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven). Indeed, REST has helped to widely standardize the way that most applications talk to each other.
 
-To me, GraphQL is very similar to REST insofar as its usage: anywhere that you use REST, you can use GraphQL. The major differentiator, in my novice mind, is that GraphQL allows you to only query an API for what you need, and that API will return only what you've asked for. This is best illustrated by two examples.
+To me, GraphQL is very similar to REST insofar as its usage: anywhere that you use REST, you can use GraphQL. The major differentiator, in my novice mind, is that GraphQL allows you to query only for what you need, and the response will include only what you've asked for. This is best illustrated by two examples.
 
 ### REST
 In a typical web app backend -- Rails in this case -- I can write a controller (or view, if you're using Django) action to render some data, e,g.,
@@ -120,11 +120,11 @@ python manage.py shell
 <QuerySet [{'id': 23, 'url': 'https://kopsho.cafe', 'description': 'My personal site', {'id': 24, 'url': 'https://twitter.com/natl_park_pics/', 'description': 'Pics of national parks'}]>
 ```
 
-As you can see, Django has its own ORM and queries its database via [`QuerySets`](https://docs.djangoproject.com/en/3.1/ref/models/querysets/). This should look very similar to Rails' [`ActiveRecord Query Interface`](https://guides.rubyonrails.org/active_record_querying.html), albeit with syntactical differences. It's worth brushing up on how Django does things before moving forward.
+As you can see, Django has its own ORM and queries its database via [QuerySets](https://docs.djangoproject.com/en/3.1/ref/models/querysets/). This should look very similar to Rails' [ActiveRecord Query Interface](https://guides.rubyonrails.org/active_record_querying.html), albeit with syntactical differences. It's worth brushing up on how Django does things before moving forward.
 
-In order to get GraphQL working, we need to setup a generic schema that describes our model and how we intend to fetch data via [resolvers](https://docs.graphene-python.org/en/latest/types/objecttypes/#resolvers):
+In order to get GraphQL working, we need to setup a generic schema that describes our model and how we intend to fetch data:
 ```
-/BASE_DIR/PROJECT_DIR/schema.py:
+~/BASE_DIR/PROJECT_DIR/schema.py:
 import graphene
 import links.schema
 
@@ -134,9 +134,9 @@ class Query(links.schema.Query, graphene.ObjectType):
 schema = graphene.Schema(query=Query)
 ```
 
-We also need a model-specific schema that includes a collection of GraphQL `types` and their respective `fields`. In our case, we want a GraphQL schema that defines the `Link` type and `name` and `url` fields:
+We also need a model-specific schema that includes a collection of GraphQL `types` and their respective `fields`. In our case, we want a GraphQL schema that defines the `Link` type, `name` and `url` fields, and a [resolver](https://docs.graphene-python.org/en/latest/types/objecttypes/#resolvers):
 ```
-/BASE_DIR/links/schema.py:
+~/BASE_DIR/links/schema.py:
 import graphene
 from graphene_django import DjangoObjectType
 from .models import Link
@@ -154,7 +154,7 @@ class Query(graphene.ObjectType):
 
 Now we can do some basic querying of our data with GraphQL. We will use [GraphiQL](https://github.com/graphql/graphiql) to do this, which is a nice interactive browser interface. We'll need to add it to a CSRF exempt list in order to use it:
 ```
-/BASE_DIR/PROJECT_DIR/urls.py:
+~/BASE_DIR/PROJECT_DIR/urls.py:
 ...
 from django.views.decorators.csrf import csrf_exempt
 from graphene_django.views import GraphQLView
@@ -162,6 +162,7 @@ from graphene_django.views import GraphQLView
 urlpatterns = [
   path('admin/', admin.site.urls),
   path('graphql/', csrf_exempt(GraphQLView.as_view(graphiql=True))),
+]
 ```
 
 If your Django app isn't running, run it with `python manage.py runserver` and navigate to `http://localhost:8000/graphql/`. You should see an interactive window in which you can write GraphQL queries! Go ahead and do that:
