@@ -207,6 +207,7 @@ Press the "play" button to get a response back from the server. If you have `Lin
 You can add and remove fields on the fly, re-run the query, and the response will update accordingly. GraphiQL is also aware of your schema, so it will error if you try to query for a type or field that doesn't exist, do autofill, etc.!
 
 ![df-shot](../../images/django-futz/df-shot.gif)
+
 Aaaaand that's it for this section. Here we learned some basic GraphQL concepts and functionality, setup GraphQL in our Django app via a Graphene library, and wrote some basic schemas to query our data. In the next section, we'll learn how to write an example `mutation` to modify our data and write an extremely basic React frontend to interact with it!
 
 [⟵   back to blog](./blog-home.html)
