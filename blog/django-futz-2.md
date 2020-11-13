@@ -7,7 +7,7 @@ Welcome back! In [part 1 of this series](./django-futz-1.html), we set up a tota
 ## GraphQL vs. REST
 ![df-versus](../../images/django-futz/df-versus.gif)
 
-If you've ever built a web application before, you likely know how to build an API. If you know how to build an API, you likely know what REST is and [why it's important](https://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven). Indeed, REST has helped to widely standardize the way that most applications talk to each other.
+If you've ever built a web application before, you likely know how to build an API. If you know how to build an API, you likely know what REST is and [why it's important](https://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven). Indeed, REST has helped to widely standardize the way that most applications (and humans) talk to each other on the internet.
 
 To me, GraphQL is very similar to REST insofar as its usage: anywhere that you use REST, you can use GraphQL. The major differentiator, in my novice mind, is that GraphQL allows you to query only for what you need, and the response will include only what you've asked for. This is best illustrated by two examples.
 
