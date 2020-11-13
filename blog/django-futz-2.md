@@ -5,11 +5,15 @@
 Welcome back! In [part 1 of this series](./django-futz-1.html), we set up a totally new Django app with all of its dependencies, the `graphene-django` package, a data model, and some dummy data to play around with. In this post, we'll be going through some basic [GraphQL](https://graphql.org/) functionality by comparing it with REST, running some example queries, and get it setup in our app.
 
 ## GraphQL vs. REST
+![df-versus](../../images/django-futz/df-versus.gif)
+
 If you've ever built a web application before, you likely know how to build an API. If you know how to build an API, you likely know what REST is and [why it's important](https://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven). Indeed, REST has helped to widely standardize the way that most applications talk to each other.
 
 To me, GraphQL is very similar to REST insofar as its usage: anywhere that you use REST, you can use GraphQL. The major differentiator, in my novice mind, is that GraphQL allows you to query only for what you need, and the response will include only what you've asked for. This is best illustrated by two examples.
 
 ### REST
+![df-han](../../images/django-futz/df-han.png)
+
 In a typical web app backend -- Rails in this case -- I can write a controller (or view, if you're using Django) action to render some data, e,g.,
 ```
 def index
@@ -63,6 +67,8 @@ fetch('http://localhost:3000/parks')
 This should look like pretty standard behavior; we are retrieving **all** of the `Park` objects from our backend by querying that `index` endpoint, converting it to json, then running some looping code to render each park in our frontend.
 
 ### GraphQL
+![df-lasso](../../images/django-futz/df-lasso.gif)
+
 The foundations of GraphQL are very similar to the above REST approach, except we can query for only the things we want. For example, if we only wanted the `id` and `image` from each `Park` object, we'd use this query:
 ```
 query {
@@ -100,6 +106,8 @@ So we're doing much of the same stuff as we did in that more traditional REST ap
 
 
 ### Using Graphene
+![df-bomb](../../images/django-futz/df-bomb.gif)
+
 Of course, to get the GraphQL example working, we have some configuration to do first. Luckily GraphQL has loads of [libraries](https://graphql.org/code/#server-libraries) that we can use to get it working in most modern web apps. We will be using the [Graphene](https://graphene-python.org/) lib, specifically [`graphene-django`](https://docs.graphene-python.org/projects/django/en/latest/), to build this out in the Django app that we made in [the previous section](./django-futz-1.html)!
 
 Recall from earlier our `Links` model definition:
@@ -198,6 +206,7 @@ Press the "play" button to get a response back from the server. If you have `Lin
 
 You can add and remove fields on the fly, re-run the query, and the response will update accordingly. GraphiQL is also aware of your schema, so it will error if you try to query for a type or field that doesn't exist, do autofill, etc.!
 
+![df-shot](../../images/django-futz/df-shot.gif)
 Aaaaand that's it for this section. Here we learned some basic GraphQL concepts and functionality, setup GraphQL in our Django app via a Graphene library, and wrote some basic schemas to query our data. In the next section, we'll learn how to write an example `mutation` to modify our data and write an extremely basic React frontend to interact with it!
 
 [⟵   back to blog](./blog-home.html)
