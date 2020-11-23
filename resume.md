@@ -1,7 +1,7 @@
 # Resume
 [Click to Download as PDF](./resume.pdf)
 ## Summary
-Ex-project manager turned coding bootcamp graduate with over a decade of technical experience including seven years at Mailchimp in systems engineering and project management. Proficient and interested in many parts of the stack, including writing backend/frontend code, observability, networking, and operating production. Looking for a hands-on technical role with a high potential company.
+Ex-project manager turned coding bootcamp graduate with over a decade of technical experience including seven years at Mailchimp in systems engineering and project management. Proficient and interested in many parts of the stack, including writing backend/frontend code, observability, networking, and operating production. Focused on hands-on technical roles with high potential companies.
 * * *
 
 ## Technical Skills 
